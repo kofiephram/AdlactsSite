@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adlacts</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body style="display: inline-block; width:fit-content;">
+ <nav class="navbar  user-profile" id="top">
+            <span style="font-size: 30px;">
+                <b style="font-size:40px;color:rgb(0, 186, 227);margin-left:-20px;">
+                <span style="font-weight:1px;">Adlacts</span></b><span style="font-size:20px;"> Sneaker Plugins</span></span>
+                 <img  src="pictures\shopping-cart.gif" alt="User" width="40px">
+       
+      
+    </nav>
+      
+
+
+    <header class="hero">
+        <div class="container hero-container">
+            
+            <div class="hero-content">
+                <br>
+                <span class="tag">Your Premium Sneaker Plugins</span>
+                <h1 class="book-title">Urbanlock and Style </h1>
+                <p class="author">Scale<span class="genre">Wholesale & Retail</span></p>
+                
+                <p class="description">
+                    Get your Original Sneakers @Adlacts_Sneaker_Plugins. <br>
+                    <b style="color: red;">&star;&star;&star;&star;&star;</b>
+                </p>
+                <br>
+                <br>
+
+                <div class="price-box">
+                    <span class="old-price">$30.00</span>
+                    <span class="discount-tag">-10%</span>
+                    <br>
+                     <span>Now</span>
+              <span class="discount-tag">$27.00</span>
+              <br>
+             
+                    <span class="current-price">Get 10% on each next purchase!</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#here"><button class="btn btn-primary">View Catalogue</button></a>
+                    <a href="/about.html"> <button class="btn btn-outline">About Us</button></a>
+                </div>
+            </div>
+
+            <div class="hero-image-area">
+
+    <div class="slideshow-container">
+        <div class="slide">
+            <img src="pictures\WMNS+AIR+JORDAN+1+LOW.jpeg" alt="Image 1">
+        </div>
+        <div class="slide">
+            <img src="pictures\WMNS+AIR+JORDAN+4+RETRO.jpeg" alt="Image 2">
+        </div>
+        <div class="slide">
+            <img src="pictures\thujey-ngetup-z5aHyQVEdB0-unsplash.jpg" alt="Image 3">
+        </div>
+
+        <div class="slide">
+            <img src="pictures\AIR+JORDAN+1+LOW+G.jpeg" alt="Image 4">
+        </div>
+        <div class="slide">
+            <img src="pictures/maria-fernanda-pissioli-DTZV8WDM1Ho-unsplash.jpg" alt="Image 5">
+        </div>
+        <div class="slide">
+            <img src="pictures/niklas-du-3MqhuQljanE-unsplash.jpg" alt="Image 6">
+        </div>
+        <div class="slide">
+            <img src="pictures/branislav-belko-lJ7iAZxplpc-unsplash.jpg" alt="Image 7">
+        </div>
+
+    </div>
+
+
+    <div class="floating-card">
+                    <div class="mini-book-cover">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+                    <div class="mini-card-info">
+                        <h4>Get Your Originals</h4>
+                        <p>Kofi Ephram</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+    <script>
+    let slideIndex = 1;
+let slides = document.getElementsByClassName("slide");
+
+showSlides(slideIndex);
+
+function plusSlide(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.transform = `translateX(${(i - slideIndex + 1) * 100}%)`;
+    }
+}
+
+// Automatic slideshow
+setInterval(() => {
+    plusSlide(1);
+}, 3000); 
+    </script>
+<h3 class="galleryh">Gallery</h3>
+
+  <div  class="overdivcat1 gallerycon" >
+
+
+<div class="gallery"  id="gally">
+  <div class="galleryindiv">
+    <br>
+    <br>
+   <img src="./pictures/PORTALFIRE.jpg" width="100%" data-popup-id="popup1"   class="trigger"  alt="NK Portal">
+    </div>
+   <br>
+       <p>Nike Portal<br><br>$35 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Nike%20Portal)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup1"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">Nike Portal</h2>
+<img src="pictures/PORTALFIRE.jpg" alt="NK Portal" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:Nike Portal
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:35
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+   <img src="./pictures/PTL PEECH.jpg" width="100%" data-popup-id="popup2"   class="trigger"  alt="NK Portal">
+    </div>
+   
+       <p>Nike Portal <br><br>$35 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Nike%20Portal)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup2"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">Nike Portal</h2>
+<img src="./pictures/PTL PEECH.jpg" alt="NK Portal" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:Nike Portal
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:35
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded',()=>{
+        const triggers =document.querySelectorAll('.trigger');
+        const overlay = document.getElementById('overlay');
+
+
+        triggers.forEach((trigger)=>{
+            trigger.addEventListener('click',()=>{
+                const popupid=trigger.getAttribute('data-popup-id');
+                const popup = document.getElementById(popupid);
+                popup.style.display = 'block';
+                overlay.style.display = 'block';
+
+            });
+        });
+        overlay.addEventListener('click', () => {
+
+  overlay.style.display = 'none';
+  const popups =document.querySelectorAll('.popup');
+  popups.forEach((popup)=>{
+    popup.style.display='none'
+  });
+
+        });
+
+        const closeButtons = document.querySelectorAll('.close-popup');
+        closeButtons.forEach((button)=>{
+            button.addEventListener('click',()=>{
+                const popup=button.closest('.popup');
+                popup.style.display='none';
+                overlay.style.display='none';
+            });
+            
+        });
+        });
+</script>
+
+<div class="gallery" >
+  <div class="galleryindiv">
+   <img src="./pictures/DIOR GRN1.jpg" width="100%" data-popup-id="popup3"   class="trigger"  alt="Dior Homme">
+    </div>
+   
+       <p>Dior Homme <br><br>$40 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Dior%20Homme)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup3"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">Dior Homme</h2>
+<img src="./pictures/DIOR GRN1.jpg" alt="Dior Homme" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Dior
+    <br>
+    Name:Dior Homme 
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:40
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+   <img src="./pictures/DRIFT BL WH.jpg" width="100%" data-popup-id="popup4"   class="trigger"   alt="Drift white">
+    </div>
+   
+       <p>TN DRIFT <br><br>$30 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:TN%20DRIFT)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup4"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">TN DRIFT</h2>
+<img src="./pictures/DRIFT BL WH.jpg" alt="Drift white" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:TN DRIFT
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:30
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+    <br>
+   <img src="./pictures/images (33).jpeg" width="100%" data-popup-id="popup5"   class="trigger"   alt="tn black" >
+    </div>
+   
+       <p>TN BLACK<br><br>$30 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:TN%20BLACK )">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup5"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">TN BLACK </h2>
+<img src="./pictures/images (33).jpeg" alt="tn black" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:TN BLACK 
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:30
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+    <br>
+   <img src="./pictures/j4 Cream.jpg" width="100%" data-popup-id="popup6"   class="trigger"  alt="J4 cream" >
+    </div>
+   
+       <p>Jordan 4  <br><br>$30 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Jordan%204)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup6"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">J4</h2>
+<img src="./pictures/j4 Cream.jpg" alt="J4 cream" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Jordans
+    <br>
+    Name:Jordan 4
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:30
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+   <img src="./pictures/J3 GREY.jpg" width="100%" data-popup-id="popup7"   class="trigger"  alt="J3 grey"  >
+    </div>
+   
+       <p>Jordan 3  <br>$30 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Jordan%203)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup7"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">J3</h2>
+<img src="./pictures/J3 GREY.jpg" alt="J3 grey" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Jordans
+    <br>
+    Name:Jordan 3
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:30
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+    <br>
+   <img src="./pictures/DUNKY BLACK WHITE.jpg" width="100%" data-popup-id="popup8"   class="trigger"  alt="dubk bl wh" >
+    </div>
+   
+       <p><br>Dunky <br><br>$20 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Dunky%20)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup8"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">Dunky</h2>
+<img src="./pictures/DUNKY BLACK WHITE.jpg" alt="dubk bl wh" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:Dunky 
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:20
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+   <img src="./pictures/AFL PCH.jpg" width="100%" data-popup-id="popup9"   class="trigger" alt="af1 peach" >
+    </div>
+   
+       <p>Air Force 1 $25 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:AF1%20Rope%20Pch)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup9"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">Air Force 1</h2>
+<img src="./pictures/AFL PCH.jpg" alt="af1 peach" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:Air Force 1 
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:25
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+<div class="gallery">
+    <br>
+  <div class="galleryindiv">
+    <br>
+   <img src="./pictures/J3 FRAGMENT.jpg" width="100%" data-popup-id="popup10"   class="trigger"  alt="J3 frag">
+    </div>
+   
+       <p>Jordan 3 <br><br>$30 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Jordan%203)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup10"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">J3</h2>
+<img src="./pictures/J3 FRAGMENT.jpg" alt="J3 frag" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Jordans
+    <br>
+    Name:Jordan 3 Fragment
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:30
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+   <img src="./pictures/IMG_20241108_123928_231.jpg" width="100%" data-popup-id="popup11"   class="trigger" alt="af1 blk">
+    </div>
+   
+       <p>AF1 Blk/Wht <br>$20</p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:AF1%20plain)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup11"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">AF1</h2>
+<img src="./pictures/IMG_20241108_123928_231.jpg" alt="af1 blk" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:AF1 Black/Whtie
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:20
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+    <br>
+   <img src="./pictures/AIR+JORDAN+1+LOW+G.jpeg" width="100%" data-popup-id="popup12"   class="trigger" >
+    </div>
+   
+       <p>Jordan One  <br><br>$20 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Jordan%201)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup12"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">J1 Low</h2>
+<img src="./pictures/AIR+JORDAN+1+LOW+G.jpeg" alt="J1" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:Jordan 1 Low
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:20
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+    <br>
+   <img src="./pictures/taylor-smith-aDZ5YIuedQg-unsplash.jpg" width="100%" data-popup-id="popup13"   class="trigger" alt="J1" >
+    </div>
+   
+       <p>Jordan One  <br><br>$20 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Jordan%201)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup13"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">J1 HighCut</h2>
+<img src="./pictures/taylor-smith-aDZ5YIuedQg-unsplash.jpg" alt="J1" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:Jordan 1 HighCut
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:20
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="galleryindiv">
+   <img src="./pictures/images (32).jpeg" width="100%" data-popup-id="popup14"   class="trigger"  alt="white ptl">
+    </div>
+   
+       <p>Portal $35 </p>
+
+    <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20this%20Sneaker%20:%20(Sneaker%20Name:Portal%20)">
+    <button class="buybtn" style="padding: 5px;border-radius: 15px;width: 80%;">Buy now</button> </a>
+</div>
+
+<div  id="popup14"  class="popup">
+<div class="popup-content">
+
+<h2 style="color: white;text-align: center;">Portal</h2>
+<img src="./pictures/images (32).jpeg" alt="white ptl" width="80%" style="margin-left: 10%;">
+<p style="text-align: center;color: white;">
+    Brand:Nike
+    <br>
+    Name:Portal
+    <br>
+    Color:Variety/Mix
+    <br>
+    <br>
+    Price:35
+    <br>
+
+    <button  class="buybtn close-popup" style="width: 70%;padding: 10px;border-radius: 15px;font-size: 15px;">Close</button>
+</p>
+</div>
+</div>
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="gallery" >  
+     <a href="https://wa.me/+263777536989?text=Hi%20l%20want%20to%20know%20more%20about%20AdlactsSneakerPlugins:" style="color: rgb(128, 255, 0);">
+         <p>Didn't Find What Your Are Looking For?....<br><br></p>
+     </a>
+</div>
+
+
+<div id="overlay" class="overlay"></div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+<table class="adlacts-table">
+  <thead>
+    <tr>
+      <th>Sneaker Brand</th>
+      <th>Sneaker Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Timberland</td><td>Timberland (all colors)</td><td class="price">$60</td></tr>
+    <tr><td>Puma</td><td>Puma Roma</td><td class="price">$25</td></tr>
+    <tr><td>Adidas</td><td>Campus</td><td class="price">$20</td></tr>
+    <tr><td>Jordan</td><td>Jordan XL</td><td class="price">$40</td></tr>
+    <tr><td>Adidas</td><td>SuperStar</td><td class="price">$22</td></tr>
+    <tr><td>Adidas</td><td>yeezy slides</td><td class="price">$15</td></tr>
+    <tr><td>Adidas</td><td>Campus Plus</td><td class="price">$25</td></tr>
+    <tr><td>Puma</td><td>Suede XL</td><td class="price">$20</td></tr>
+    <tr><td>Puma</td><td>SpeedCat</td><td class="price">$25</td></tr>
+    <tr><td>New Balance</td><td>550 "White Black"</td><td class="price">$35</td></tr>
+    <tr><td>New Balance</td><td>990v6 "Made in USA"</td><td class="price">$35</td></tr>
+    <tr><td>Jordan</td><td>J11 low/high</td><td class="price">$30</td></tr>
+    <tr><td>Vans</td><td>Potato</td><td class="price">$35</td></tr>
+    <tr><td>Reebok</td><td>Club C Bulc</td><td class="price">$25</td></tr>
+    <tr><td>Jordan 90</td><td>Jordan 4 Retro "Red Thunder"</td><td class="price">$55</td></tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="site-footer">
+            <div class="footernew">
+
+                <div class="footercol" style="text-align: center;">
+                    <img src="pictures/adlactslogo3.jpeg"  alt="Adlacts Logo"  width="100px">
+                    <h4 style="margin-top: 10px;text-align: center;color: rgb(99, 81, 81);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Your Number1 <br> Sneaker local plug</h4>
+
+                     <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp; "></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                </div>
+                    
+                </div>
+
+
+            <div class="footercol" >
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./about.html" >Services</a></li>
+                    <li><a href="https://whatsapp.com/channel/0029VbAyE6q2UPBHBrwvjd35" target="_blank">Community</a></li>
+                    <li><a  href="https://whatsapp.com/channel/0029VbAyE6q2UPBHBrwvjd35" target="_blank">Testimonial</a></li>
+                </ul>
+            </div>
+
+            <div class="footercol">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="./helpdesk.html">Help Center</a></li>
+                    <li><a href="https://twitter.com/yourusername" target="_blank">Tweet @Adlacts</a></li>
+                    <li><a href="https://wa.me/+263777536989?text=Hi%20l%20l%20Purchased%20One%20Of%20Your%20Stores%20And%20.">Feedback</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footercol contact-info">
+                <h4>Contact Us</h4>
+                <p>(263) 77 753 6989</p>
+                <a href="mailto:support@Adlactsinvestments@gmail.com" target="_blank"><p>Adlactsinvestments@gmail.com</p></a>
+            </div>
+            </div>
+       
+        <div class="footer-bottom">
+            <p>&copy; Adlacts 2026.<br> All rights reserved.</p>
+        </div>
+    </footer>   
+
+
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const hash = window.location.hash; // gets "#gally"
+  
+  if(hash) {
+    const target = document.querySelector(hash); // finds #gally div
+    
+    if(target) {
+      // small delay so images/fonts load first, then scroll
+      setTimeout(() => {
+        target.scrollIntoView({ 
+          behavior: "smooth", 
+          block: "center" // centers it on screen
+        });
+        
+        // Optional: highlight it for 2 seconds so user sees it
+        target.style.transition = "0.3s";
+        target.style.boxShadow = "0 0 0 4px #87CEEB"; // sky blue glow
+        setTimeout(() => {
+          target.style.boxShadow = "none";
+        }, 2000);
+      }, 100);
+    }
+  }
+});
+</script>
+</body>
+</html>

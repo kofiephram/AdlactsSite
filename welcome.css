@@ -1,12 +1,20 @@
 .navbar {
+    width: 80%;
+    margin: auto;
     Display: flex;
     flex-direction: row;
     Justify-content: space-between;
     Align-items: center;
-    Padding: 10px 30px 1px;
+    Padding: 50px 30px 1px;
     Background: #fff;
-    Box-shadow: 0 0px 15px rgba(0, 0, 0, 0.06);
+    Box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin-top: 10px;
+
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
+
 }
 
 
@@ -20,7 +28,7 @@ user-profile {
     Width: 45px;
     Height: 45px;
     Border-radius: 50%;
-    margin-bottom: -40px;
+    margin-right: -20px;
 }
 
 
@@ -28,7 +36,7 @@ user-profile {
 
 .hero {
     Padding: 100px 0;
-    Overflow: hidden; /* To clip the big blob if needed */
+    Overflow: hidden;
     margin-top:20px;
     text-align: center;
 }
@@ -47,7 +55,6 @@ user-profile {
    
 }
 
-/* Left Side */
 .tag {
     font-size: 12px;
     letter-spacing: 2px;
@@ -89,7 +96,6 @@ user-profile {
 }
 
 .price-box {
-    /* Display: flex; */
     Align-items: center;
     line-height: 30px;
     Gap: 15px;
@@ -122,15 +128,6 @@ user-profile {
     Gap: 15px;
     padding-top: 20px;
 }
-
-
-
-
-
-
-
-
-
 .btn {
     Padding: 12px 30px;
     Border-radius: 6px;
@@ -162,7 +159,6 @@ user-profile {
     color: #2a2a45;
 }
 
-/* Right Side (Image & Blob) */
 .hero-image-area {
     Position: relative;
       width: 100%;
@@ -171,24 +167,22 @@ user-profile {
     Display: flex;
     Justify-content: center;
     Align-items: flex-end;
-    /* margin-right: 60px; */
 }
 
 .main-person-img {
-    Height: 110%; /* Makes image pop out of container slightly */
+    Height: 110%; 
     Object-fit: cover;
     Mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
 }
 
-/* Floating Card */
 
 
 .floating-card {
     Position: absolute;
     Bottom: 10px;
     Right: 0;
-    background-color: dodgerblue;
+    background-color: transparent;
     Padding: 15px;
     Border-radius: 12px;
     Display: flex;
@@ -200,8 +194,8 @@ user-profile {
 
 .mini-book-cover {
     Width: 50px;
-    Height: 70px;
-    Background:white; /* Dark placeholder for book cover */
+    Height: 50px;
+    Background:rgb(133, 190, 220); 
     Border-radius: 4px;
     Display: flex;
     Align-items: center;
@@ -218,10 +212,8 @@ user-profile {
 }
 
 .mini-card-info p {
-    Font-size: 11px;
-    /* color:burlywood ; */
+    Font-size: 12px;
      text-align: center;
-    /* Color: var(--text-grey); */
      Color: var(--dark-color);
     Margin-bottom: 5px;
     padding-right: 20px;
@@ -236,12 +228,10 @@ user-profile {
 .mini-price {
     Font-size: 14px;
     Font-weight: 700;
-    /* Color: var(--dark-color); */
     color: red;
 }
 
 
-/*  RESPONSIVE  */
 @media (max-width: 900px) {
     .hero-container {
         Grid-template-columns: 1fr;
@@ -261,7 +251,7 @@ user-profile {
     .floating-card {
         Right: 50%;
         Transform: translateX(50%);
-        Bottom: 20px;
+        Bottom: 10px;
     }
 }
 
@@ -272,8 +262,9 @@ user-profile {
    
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 80%;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .slide {
@@ -288,160 +279,7 @@ user-profile {
 .slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-
-
-.gallery{
-    text-align: center;
-    color: dodgerblue;
-    font-size:x-large;
-}
-
-
-.divimg{
-    position: relative;
-    width: 90%;
-    height: 40%;
-    margin: 40px auto;
-    background-color: red;
-}
-
-.collage{
-    position: relative;
-    width:60% ;
-    height: 50%;
-    margin: auto;
-    /* background-color: #fca311; */
-}
-.divimg img {
-    
-    position: absolute;
-    /* border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    margin-top: 10%; */
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-
-
-
-}
-.img1{
-  /* j1redwhitehcut */
-    top: 50%;
-    left: 30%;
-    position: absolute;
-    z-index: 12;
-    transform: rotate(-10deg);}
-
-.img2{
-    /*j1lowcut*/
-    bottom: o;
- right: 0;
-  position: absolute;
-    z-index: 11;
-    transform: rotate(5deg);
-
-
-}
-
-
-.img4{
-    /*j4grnwhite */
-     top:0;
-    left: 0;
-    z-index: 9;
-    transform: rotate(-10deg);
-     position: absolute;
-
-
-}
-
-.img5{
-   /*AF1  */
-     top:2900px;
-    left: 70px;
-    z-index: 8;
-    transform: rotate(0deg);
-     position: absolute;
-
-}
-
-
-
-.img6{
-
-    /* j3blCKWHITE */
-     top: 900px;
-    left: 20px;
-    z-index: 7;
-    transform: rotate(8deg);
-     position: absolute;
-
-}
-
-
-.img7{
-/*j1bluewhite */
-     top: 1700px;
-    left: 78px;
-    z-index: 6;
-    transform: rotate(20deg);
-     position: absolute;
-
-
-}
-
-.img8{
-
-    /*creamblue */
-     top: -10px;
-    left: 70px;
-    z-index: 5;
-    transform: rotate(5deg);
-     position: absolute;
-
-
-}
-
-
-.img9{
-    /*j1retro */
-
-     top: 3300px;
-    left: 11px;
-    z-index: 4;
-    transform: rotate(0deg);
-     position: absolute;
-
-
-}
-
-.img10{
-
-    /* alpha */
-
-      top: -200px;
-    left: -3px;
-    z-index: 3;
-    transform: rotate(-10deg);
-     position: absolute;
-
-}
-
-.img11{
-/* j4white */
-      top: -300px;
-    left: 30px;
-    z-index: 2;
-    transform: rotate(-1deg);
-     position: absolute;
-
-
-
+    object-fit:cover;
 }
 
 
@@ -454,6 +292,108 @@ user-profile {
 
 
 
+.galleryh{
+    color: rgb(0, 186, 227);
+    text-align: center;
+}
+
+
+
+
+
+.gallery{
+    width: 20%;
+    height: 33%;
+    border: 1px solid transparent;
+    margin: 10px;
+    overflow: scroll;
+    overflow: hidden;
+  color: white;
+    text-align: center;
+   
+}
+.gallery div {
+overflow: hidden;
+
+}
+
+
+.gallerycon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+     border-radius: 10px ;
+      border: 1.2px solid rgb(0, 186, 227);
+      background-color:black;
+    
+
+     
+}
+
+
+.galleryindiv{
+    width: 95%;
+    height: 80%;
+}
+
+.overdivcatl{
+            background-size:cover;
+            background-position:center ;
+            background-repeat: no-repeat;
+            height:100%;
+            padding: 20px;
+            
+        }
+        
+
+        .buybtn{
+            border: 2px solid green;
+        }
+
+         .buybtn:hover{
+            border: 2px solid transparent;
+            background-color: transparent;
+            color: white;
+        }
+
+        .buybtn:active{
+            border: 2px solid transparent;
+            background-color: rgb(114, 164, 213);
+            color: white;
+        }
+
+
+
+.popup{
+    display: none;
+    position: fixed;
+    top: 58%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+}
+
+.popup-content{
+    padding: 20px;
+    border-radius: 20px;
+    width: 55%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.8);
+    z-index: 999;
+    display: none;
+    pointer-events: auto;
+}
 
 
 
@@ -462,6 +402,125 @@ user-profile {
 
 
 
+  .site-footer {
+  background: #ffffff;
+  color: black; 
+  padding: 3rem 1.5rem 1rem; 
+  font-size: 0.95rem;
+  margin-top: 40px;
+}
+
+.footernew{
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+.footercol {
+  flex: 1; 
+  min-width: 180px;
+}
+
+.footercol h4 {
+  color: rgb(0, 186, 227);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footercol p {
+  line-height: 1.6;
+  margin: 0 0 0.5rem;
+}
+
+
+.footercol ul {
+    list-style: none;
+    padding-left:  50px;
+    margin-top: 0px;
+} 
+
+
+.footercol ul li {
+  margin-bottom: 0.5rem;
+}
+
+
+.footercol a {
+  color:black;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footercol a:hover {
+  color: #60a5fa; 
+}
 
 
 
+.contact-info{
+     line-height: -1;
+    margin:  0 0 0.5rem ;
+
+}
+
+
+.footer-bottom {
+  border-top: 1px solid #374151;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #032868;
+}
+@media (max-width: 768px) {
+.site-footer {
+    padding: 4rem 1rem 1rem;
+  }
+
+  .footernew{ font-size: 13px;
+                        }
+                        
+.footercol {
+    min-width: 100%; 
+  }
+  
+
+}
+
+
+
+.adlacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  .adlacts-table th {
+    background:rgb(0, 186, 227); /* Adlacts Red */
+    color: #fff;
+    padding: 14px;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .adlacts-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #eee;
+  }
+  .adlacts-table tr:nth-child(even) {
+    background: #F9F9F9; 
+  }
+  .adlacts-table tr:hover {
+    background: #d6f5f0; 
+  }
+  .price {
+    font-weight: 700;
+    color: #12e806;
+  }

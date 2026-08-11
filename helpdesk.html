@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    
+    <style>
+  /* Matches your About section perfectly */
+ .adlacts-help {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+ .adlacts-help h1 {
+    color:rgb(13, 164, 228); /* Sky Blue */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+  }
+ .adlacts-help h2 {
+    color:rgb(0, 186, 227); /* Sky Blue headings */
+    font-size: 1.5rem;
+    margin-top: 30px;
+    border-left: 4px solidrgb(0, 186, 227);
+    padding-left: 12px;
+  }
+ .adlacts-help p {
+    line-height: 1.7;
+    font-size: 1.05rem;
+    margin: 15px 0;
+    color: #000; /* Black body text */
+  }
+ .adlacts-help-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+ .adlacts-help-card {
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 3px solidrgb(0, 186, 227); /* Sky Blue */
+    transition: 0.3s;
+  }
+ .adlacts-help-card:hover {
+    background: #E6F7FF; /* Light Sky Blue on hover */
+    border-top: 3px solid #000; /* Black on hover */
+  }
+ .adlacts-help-card h3 {
+    color:rgb(0, 186, 227); /* Sky Blue subheads */
+    margin-top: 0;
+  }
+ .adlacts-btn {
+    display: inline-block;
+    background:rgb(0, 186, 227); /* Sky Blue */
+    color:white; /* Black text */
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 10px;
+    transition: 0.3s;
+    border: 2px solidrgb(0, 186, 227);
+  }
+ .adlacts-btn:hover {
+    background: #000; /* Black on hover */
+    color:rgb(0, 186, 227); /* Sky Blue text on hover */
+    border-color: #000;
+  }
+ .adlacts-faq {
+    background: #E6F7FF; /* Light Sky Blue */
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solidrgb(0, 186, 227); /* Sky Blue accent */
+    margin: 15px 0;
+  }
+ .adlacts-faq summary {
+    font-weight: 700;
+    cursor: pointer;
+    color: #000; /* Black */
+  }
+ .adlacts-faq[open] {
+    border-left: 4px solid #000; /* Turns black when open */
+  }
+</style>
+
+<section class="adlacts-help">
+  <h1>Help Desk</h1>
+  <p style="text-align:center; font-size:1.1rem;color: rgb(171, 171, 171);">
+    <b>Need help with your order? We got you. Fast replies on WhatsApp.</b>
+  </p>
+
+  <h2>Contact Us Fast</h2>
+  <div class="adlacts-help-grid">
+    <div class="adlacts-help-card">
+      <h3>WhatsApp Support</h3>
+      <p>Fastest way to reach us. Order updates, size checks, pics.</p>
+      <a href="https://wa.me/+263777536989?text=Hi%20May%20l%20Get%20More%20Information%20About%20AdlactsStores." class="adlacts-btn">Chat on WhatsApp</a>
+    </div>
+    <div class="adlacts-help-card">
+      <h3>Email Support</h3>
+      <p>For receipts, returns, and bulk orders.</p>
+      <a href="mailto:support@Adlactsinvestments@gmail.com" class="adlacts-btn">Email Us</a>
+    </div>
+    <div class="adlacts-help-card">
+      <h3>Store Hours</h3>
+      <p>Mon - Sat: 9am - 8pm<br>Sun: 3pm - 8pm<br>Harare, ZW</p>
+    </div>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <details class="adlacts-faq">
+    <summary>How long does delivery take?</summary>
+    <p>Harare: Same day to 24hrs. Outside Harare: 2-3 business days via courier.</p>
+  </details>
+
+  <details class="adlacts-faq">
+    <summary>Are all sneakers 100% authentic?</summary>
+    <p>Yes. We QC every pair. If it's not real, we don't sell it. Full refund guarantee.</p>
+  </details>
+
+  <details class="adlacts-faq">
+    <summary>Can I exchange or return?</summary>
+    <p>Yes within 3 days if unworn with tags. Size swaps are free. DM us on WhatsApp to start.</p>
+  </details>
+
+  <details class="adlacts-faq">
+    <summary>Do you have my size in stock?</summary>
+    <p>Sizes move fast. WhatsApp us with the model + size and we’ll check + send pics instantly.</p>
+  </details>
+
+  <details class="adlacts-faq">
+    <summary>Payment methods?</summary>
+    <p>EcoCash, OneMoney, Bank Transfer, USD Cash on delivery in Harare.</p>
+  </details>
+
+  <h2>Still need help?</h2>
+  <p>If you didn’t find what you need, our team is online to help you 1-on-1.</p>
+  <a href="https://wa.me/+263777536989?text=Hi%20May%20l%20Get%20More%20Information%20About%20AdlactsStores." class="adlacts-btn">Talk to an Agent</a>
+
+
+<br>
+<button onclick="history.back()" class="adlacts-btn" style="margin-top: 30px;border: none;"><b>&#8592;</b> Previous Page</button>
+<br>
+<a href="./welcom.html" class="adlacts-btn" style="margin-top: 30px;"><b>&#8635;</b> Back to Home</a>
+
+
+<footer class="site-footer">
+            <div class="footernew">
+
+                <div class="footercol" style="text-align: center;">
+                    <img src="pictures/adlactslogo3.jpeg"  alt="Adlacts Logo"  width="100px">
+                    <h4 style="margin-top: 10px;text-align: center;color: rgb(99, 81, 81);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Your Number1 <br> Sneaker local plug</h4>
+
+                     <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp; "></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                </div>
+                    
+                </div>
+
+
+            <div class="footercol" >
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./about.html" >Services</a></li>
+                    <li><a href="https://whatsapp.com/channel/0029VbAyE6q2UPBHBrwvjd35" target="_blank">Community</a></li>
+                    <li><a  href="https://whatsapp.com/channel/0029VbAyE6q2UPBHBrwvjd35" target="_blank">Testimonial</a></li>
+                </ul>
+            </div>
+
+            <div class="footercol">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="./helpdesk.html">Help Center</a></li>
+                    <li><a href="https://twitter.com/yourusername" target="_blank">Tweet @Adlacts</a></li>
+                    <li><a href="https://wa.me/+263777536989?text=Hi%20l%20l%20Purchased%20One%20Of%20Your%20Stores%20And%20.">Feedback</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footercol contact-info">
+                <h4>Contact Us</h4>
+                <p>(263) 77 753 6989</p>
+                <a href="mailto:support@Adlactsinvestments@gmail.com" target="_blank"><p>Adlactsinvestments@gmail.com</p></a>
+            </div>
+            </div>
+       
+        <div class="footer-bottom">
+            <p>&copy; Adlacts 2026.<br> All rights reserved.</p>
+        </div>
+    </footer>   
+
+</section>
+</body>
+</html>

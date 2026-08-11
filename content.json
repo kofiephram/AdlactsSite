@@ -1,0 +1,33 @@
+{
+  "Monday": {
+   "title": "It's a Monday",
+    "content": "Who goes with it on this Monday",
+    "content2": "Who goes with it on this Monday"
+  },
+  "Tuesday": {
+     "title": "It's a Tuesday",
+    "content": "Who goes with it on this Tuesday"
+  },
+  "Wednesday": {
+     "title": "It's a Wednesday",
+    "content": "Who goes with it on this Wednesday"
+  },
+  "Thursday": {
+   "title": "It's a Thursday",
+    "content": "Who goes with it on this Thursday"
+
+  },
+  "Friday": {
+     "title": "It's a Friday",
+    "content": "Who goes with it on this Friday",
+    "image":"./pictures/aerial-cardiac-care-checkup.jpg" 
+ },
+  "Saturday": {
+    "title": "It's a Saturday",
+    "content": "Who goes with it on this Saturday"
+  },
+  "Sunday": {
+    "title": "It's a Sunday",
+    "content": "Who goes with it on this Sunday"
+  }
+}
