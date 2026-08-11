@@ -370,7 +370,7 @@ overflow: hidden;
     display: none;
     position: fixed;
     top: 58%;
-    left: 60%;
+    left: 55%;
     transform: translate(-50%,-50%);
     z-index: 10000;
 }
